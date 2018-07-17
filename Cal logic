@@ -1,0 +1,71 @@
+Calculator functions
+
+first=""
+a=0.0
+b=0.0
+operator=""
+
+def cal(text):
+    
+    if pred_text == 100:
+        first=first+"1"
+
+    elif pred_text == 101:
+        first=first+"2"
+    
+    elif pred_text == 102:
+        first=first+"3"
+    
+    elif pred_text == 103:
+        first=first+"4"
+    
+    elif pred_text == 104:
+        first=first+"5"
+    
+    elif pred_text == 106:
+        first=first+"6"
+    
+    elif pred_text == 107:
+        first=first+"7"
+    
+    elif pred_text == 108:
+        first=first+"8"
+    
+    elif pred_text == 109:
+        first=first+"9"
+    
+    elif pred_text == 200:
+        a=float(first)
+        first=""
+        operator="+"
+    
+    elif pred_text == 201:
+        a=float(first)
+        first=""
+        operator="-"
+    
+    elif pred_text == 202:
+        a=float(first)
+        first=""
+        operator="*"
+    
+    elif pred_text == 203:
+        a=float(first)
+        first=""
+        operator="/" 
+    
+    elif pred_text == 204:
+        b=float(first)
+        first="" 
+    
+        if operator=="+":
+            return a+b
+        
+        if operator=="-":
+            return a-b
+        
+        if operator=="*":
+            return a*b
+        
+        if operator=="/":
+            return a/b
