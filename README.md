@@ -1,4 +1,4 @@
-# # Gesture-Calculator :fire:
+# # Hand Gesture :fire:
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/jb1998/Coding)  &nbsp;&nbsp;
 
@@ -15,4 +15,4 @@
 
 
 ## Prerequisites :heavy_check_mark:
-:octocat: Android studio.
+:octocat: Python,ML.
